@@ -264,7 +264,7 @@ public class SeleniumHelper {
 				waitForThenDoBackofficeSearch(search, "//input[contains(@class, 'yw-textsearch-searchbox')]");
 		}	
 		else
-			waitForThenDoBackofficeSearch(search, "//input[contains(@class, 'z-bandbox-input')]");
+			waitForThenDoBackofficeSearch(search, "//input[contains(@class, 'z-bandbox-rightedge')]");
 		pauseMS(PAUSE_MS);
 	}
 
